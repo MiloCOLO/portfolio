@@ -12,6 +12,7 @@ body {
 @media screen and (max-width: 990px) {
     body {
         background-color: darkgrey;
+        width: 100%;
     }
 }
 
@@ -54,10 +55,11 @@ ul {
 }
 
 .profilePic {
-    display: flex;
-    justify-content: center;
+    display: block;
     width: 50%;
     height: 50%;
     border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
 }
