@@ -9,6 +9,12 @@ body {
     flex-direction: row;
 }
 
+@media screen and (max-width: 990px) {
+    body {
+        background-color: darkgrey;
+    }
+}
+
 header {
     display: flex;
     background-color: lightblue;
@@ -24,8 +30,8 @@ main {
 }
 
 ul {
-    display: inline-block;
     list-style: none;
+
 }
 
 #work {
@@ -33,7 +39,6 @@ ul {
     padding: 10px;
     background: linear-gradient(to bottom, #ffe6ff 0%, #ccffff 100%);
     text-align: center;
-    animation-duration: 5s;
 }
 
 #about {
