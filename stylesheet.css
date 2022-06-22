@@ -40,6 +40,39 @@ ul {
     padding: 10px;
     background: linear-gradient(to bottom, #ffe6ff 0%, #ccffff 100%);
     text-align: center;
+    background-image: url(./images/cbi.jpg);
+    
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.project-1 {
+    border-style: solid;
+    border-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2px;
+    background-color: darkslategray;    
+}
+
+.project-2 {
+    border-style: solid;
+    border-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2px;
+    background-color: darkslategray;
+}
+
+.project-3 {
+    border-style: solid;
+    border-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2px;
+    background-color: darkslategray;
 }
 
 #about {
