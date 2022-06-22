@@ -1,0 +1,48 @@
+:root {
+    --color: black;
+    --color: cornflowerblue;
+}
+
+body {
+    margin: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    background-color: lightblue;
+    width: 100%;
+    margin-bottom: 10%;
+    padding: 10px;
+    border-style: solid;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.work {
+    border-style: solid;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffe6ff 0%, #ccffff 100%);
+    text-align: center;
+    animation-duration: 5s;
+}
+
+.about {
+    border-style: solid;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffe6ff 0%, #ccffff 100%);
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
