@@ -28,7 +28,7 @@ ul {
     list-style: none;
 }
 
-.work {
+#work {
     border-style: solid;
     padding: 10px;
     background: linear-gradient(to bottom, #ffe6ff 0%, #ccffff 100%);
@@ -36,7 +36,7 @@ ul {
     animation-duration: 5s;
 }
 
-.about {
+#about {
     border-style: solid;
     padding: 10px;
     background: linear-gradient(to bottom, #ffe6ff 0%, #ccffff 100%);
@@ -44,12 +44,13 @@ ul {
     margin-top: 10px;
 }
 
-.contact {
+#contact {
     text-align: center;
 }
 
 .profilePic {
     display: flex;
+    justify-content: center;
     width: 50%;
     height: 50%;
     border-style: solid;
