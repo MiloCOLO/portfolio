@@ -1,8 +1,3 @@
-:root {
-    --color: black;
-    --color: cornflowerblue;
-}
-
 body {
     margin: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +13,7 @@ body {
 
 header {
     display: flex;
-    background-color: lightblue;
+    background: linear-gradient(to bottom, #ffe6ff 0%, #ccffff 100%);
     width: 100%;
     margin-bottom: 30px;
     padding: 10px;
